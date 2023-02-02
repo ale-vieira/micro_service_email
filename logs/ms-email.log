@@ -1,0 +1,134 @@
+2023-02-02T16:43:59,567 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-02-02T16:43:59,600 INFO  com.ms.email.EmailApplication - Starting EmailApplication using Java 17.0.4.1 with PID 14772 (D:\projetos\email\target\classes started by Thurisaz in D:\projetos\email)
+2023-02-02T16:43:59,603 DEBUG com.ms.email.EmailApplication - Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-02T16:43:59,604 INFO  com.ms.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-02T16:44:00,192 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-02T16:44:00,241 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-02-02T16:44:00,708 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-02T16:44:00,716 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-02T16:44:00,717 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-02T16:44:00,718 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-02T16:44:00,792 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-02T16:44:00,793 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1150 ms
+2023-02-02T16:44:00,938 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-02T16:44:00,983 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-02T16:44:01,121 WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-02T16:44:01,227 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-02T16:44:01,390 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@721fc2e3
+2023-02-02T16:44:01,392 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-02T16:44:01,433 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-02T16:44:02,110 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-02T16:44:02,116 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-02T16:44:02,390 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-02T16:44:02,835 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-02T16:44:02,852 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-02T16:44:02,856 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [jackal.rmq.cloudamqp.com:5671]
+2023-02-02T16:44:03,076 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#70dd79f7:0/SimpleConnection@3705a85c [delegate=amqp://lsxphfud@54.207.152.68:5671/lsxphfud, localPort=59946]
+2023-02-02T16:44:03,158 INFO  com.ms.email.EmailApplication - Started EmailApplication in 4.002 seconds (process running for 4.69)
+2023-02-02T16:44:23,363 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-02T16:44:23,363 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-02T16:44:23,364 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-02T16:44:23,396 TRACE com.ms.email.controllers.EmailController - TRACE
+2023-02-02T16:44:23,396 DEBUG com.ms.email.controllers.EmailController - DEBUG
+2023-02-02T16:44:23,396 INFO  com.ms.email.controllers.EmailController - INFO
+2023-02-02T16:44:23,396 WARN  com.ms.email.controllers.EmailController - WARN
+2023-02-02T16:44:23,396 ERROR com.ms.email.controllers.EmailController - ERROR
+2023-02-02T16:44:23,397 FATAL com.ms.email.controllers.EmailController - FATAL
+2023-02-02T16:44:42,810 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-02-02T16:44:43,517 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-02-02T16:44:43,528 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-02-02T16:44:43,539 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-02T16:44:43,541 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-02T16:44:43,545 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-02T16:48:43,782 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-02-02T16:48:43,812 INFO  com.ms.email.EmailApplication - Starting EmailApplication using Java 17.0.4.1 with PID 4172 (D:\projetos\email\target\classes started by Thurisaz in D:\projetos\email)
+2023-02-02T16:48:43,815 DEBUG com.ms.email.EmailApplication - Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-02T16:48:43,816 INFO  com.ms.email.EmailApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-02T16:48:44,377 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-02T16:48:44,422 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2023-02-02T16:48:44,863 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-02T16:48:44,872 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-02T16:48:44,873 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-02T16:48:44,873 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-02T16:48:44,947 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-02T16:48:44,948 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1088 ms
+2023-02-02T16:48:45,072 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-02T16:48:45,114 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-02T16:48:45,243 WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-02T16:48:45,336 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-02T16:48:45,491 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63187d63
+2023-02-02T16:48:45,493 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-02T16:48:45,536 INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-02T16:48:46,186 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-02T16:48:46,193 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-02T16:48:46,449 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-02T16:48:46,883 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-02T16:48:46,899 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-02T16:48:46,902 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:48:46,905 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Broker not available; cannot force queue declarations during start: java.net.UnknownHostException: Este host não é conhecido (***************************************)
+2023-02-02T16:48:46,911 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:48:46,912 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpIOException: java.net.UnknownHostException: ***************************************
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:587) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:686) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2225) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2198) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2178) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:459) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:443) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1984) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1959) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1377) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1223) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.net.UnknownHostException: ***************************************
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1519) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1377) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1305) ~[?:?]
+	at com.rabbitmq.client.DnsRecordIpAddressResolver.resolveIpAddresses(DnsRecordIpAddressResolver.java:83) ~[amqp-client-5.16.0.jar:5.16.0]
+	at com.rabbitmq.client.DnsRecordIpAddressResolver.getAddresses(DnsRecordIpAddressResolver.java:73) ~[amqp-client-5.16.0.jar:5.16.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1219) ~[amqp-client-5.16.0.jar:5.16.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173) ~[amqp-client-5.16.0.jar:5.16.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:625) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:600) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:550) ~[spring-rabbit-3.0.1.jar:3.0.1]
+	... 12 more
+2023-02-02T16:48:46,916 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:48:46,923 INFO  com.ms.email.EmailApplication - Started EmailApplication in 3.49 seconds (process running for 4.111)
+2023-02-02T16:48:52,015 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@7fa86ddd: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:48:52,016 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:48:52,016 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:48:52,016 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:48:57,154 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@5b05715d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:48:57,155 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:48:57,155 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:48:57,155 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:02,251 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@290ceb8b: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:49:02,251 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:02,252 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:49:02,252 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:07,350 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@7141fb49: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:49:07,350 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:07,351 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:49:07,351 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:12,477 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@40a9846a: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:49:12,477 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:12,478 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:49:12,478 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:17,610 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@2f7da749: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:49:17,610 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:17,611 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:49:17,611 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:22,720 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Restarting Consumer@415d4d1: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2023-02-02T16:49:22,720 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:22,720 ERROR org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Failed to check/redeclare auto-delete queue(s).
+2023-02-02T16:49:22,720 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [***************************************:5671]
+2023-02-02T16:49:26,335 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-02-02T16:49:26,335 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-02-02T16:49:26,345 INFO  org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+2023-02-02T16:49:26,348 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-02T16:49:26,349 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-02-02T16:49:26,353 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
